@@ -93,15 +93,6 @@ const DeveloperName = styled.h4`
   text-align: center;
 `;
 
-// New style for the smaller SRN/ID text
-const DeveloperSRN = styled.p`
-  color: #777;
-  font-size: 0.95rem; /* Smaller font for SRN */
-  line-height: 1.2;
-  text-align: center;
-`;
-
-
 const AboutUs = () => {
   return (
     <AboutContainer>
@@ -141,22 +132,16 @@ const AboutUs = () => {
             <FeatureGrid> 
               <FeatureCard>
                 <Icon><FaUserGraduate /></Icon>
-                {/* Name acts as the main title */}
+                <DeveloperName>Aadya Santhosh</DeveloperName>
+              </FeatureCard>
+              <FeatureCard>
+                <Icon><FaUserGraduate /></Icon>
                 <DeveloperName>Alisha Kulshrestha</DeveloperName> 
-                {/* SRN is smaller text below the name */}
-                <DeveloperSRN>PES1UG24CS049</DeveloperSRN>
               </FeatureCard>
               
               <FeatureCard>
                 <Icon><FaUserGraduate /></Icon>
                 <DeveloperName>Achinthya MB</DeveloperName>
-                <DeveloperSRN>PES1UG24CS019</DeveloperSRN>
-              </FeatureCard>
-
-              <FeatureCard>
-                <Icon><FaUserGraduate /></Icon>
-                <DeveloperName>Aadya Santhosh</DeveloperName>
-                <DeveloperSRN>PES1UG24CS005</DeveloperSRN>
               </FeatureCard>
             </FeatureGrid>
         </TeamSection>
